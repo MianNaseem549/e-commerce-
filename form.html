@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="form">
+    <h2>Contact Form</h2>
+    <form action="">
+        <fieldset>
+            <legend>Contact Form</legend>
+            <div><label for="name">Name:</label>
+                <input type="text" name="myname" id="name" placeholder="Enter your name" />
+            </div>
+            <br />
+
+            <div>
+                <label for="fname">Father Name:</label>
+                <input type="text" name="myfname" id="fname" placeholder="Enter your Father Name" />
+            </div>
+            <br>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name=" mydob" id="dob" />
+            </div>
+            <br>
+
+            <div>
+                <label for="City">City:</label>
+                <select name="myc" id="City">
+                    <option value="lh" >Lahore</option>
+                    <option value="ok" selected>Okara</option>
+                    <option value="kh" >Karachi</option>
+                    <option value="isl" >Islamabad</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="male">Male: </label>
+                <input type="radio" name=" mydob" id="male" />
+                <label for="Female">Female: </label>
+                <input type="radio" name=" mydob" id="Female" />
+            </div>
+            <br>
+
+            <div>
+                <label>Hobbies: </label>
+                <label for="Cricket">Cricket </label>
+                <input type="checkbox" name=" myhob" id="Cricket" />
+                <label for="Hockey">Hockey </label>
+                <input type="checkbox" name=" myhob" id="Hockey" />
+                <label for="other">other </label>
+                <input type="checkbox" name=" myhob" id="other" />
+            </div>
+            <br>
+            <div>
+                <label for="area">Write your message:</label>
+                <textarea name="mym" id="area" cols="30" rows="10" placeholder="write your message" ></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label >Upload file</label>
+                <input type="file" />
+                <br/>
+                <br/>
+                <input type="submit"/>
+                <input type="reset"/>
+            </div>
+            <br>
+        </fieldset>
+    </form>
+</div>
+</body>
+
+</html>
